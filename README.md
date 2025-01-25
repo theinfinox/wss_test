@@ -1,5 +1,5 @@
 # wss_test
-Test for web sockets over https
+Test for web sockets over https through cloudflared ( Cloudflare zero trust tunnel )
 
 Cloudflare Tunnel does not directly support the `ws://` (WebSocket) protocol. However, you can work around this limitation by using **WebSockets over HTTPS (WSS)** instead. To achieve this, follow these steps:
 
