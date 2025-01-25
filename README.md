@@ -70,7 +70,7 @@ Modify your Node.js WebSocket server to use HTTPS instead of HTTP:
 Once the WebSocket server is running securely over HTTPS (WSS), use Cloudflare Tunnel like this:
 
 ```bash
-cloudflared tunnel --url https://192.168.0.101:3001
+cloudflared tunnel --url https://192.168.0.xxx:30xx
 ```
 
 Cloudflare will provide a public URL like:
