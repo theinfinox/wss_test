@@ -135,7 +135,7 @@ Update your client code to use `wss://` instead of `ws://`:
 
 2. Run Cloudflare Tunnel:  
    ```bash
-   cloudflared tunnel --url https://192.168.0.101:3001
+   cloudflared tunnel --url https://192.168.0.xxx:30xx
    ```
 
 3. Open the provided Cloudflare URL in your browser and check if the WebSocket clock updates correctly.
